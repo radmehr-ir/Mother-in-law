@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>لیست خرید - مادریار هوشمند</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">🏠 خانه</a>
+  <a href="shopping.html">🛒 لیست خرید</a>
+  <a href="reminder.html">⏰ یادآور</a>
+</nav>
+
+<h2>🛒 لیست خرید</h2>
+<input type="text" id="itemInput" placeholder="یک مورد اضافه کنید">
+<button onclick="addItem()">➕ افزودن</button>
+<ul id="shoppingList"></ul>
+
+<script src="script.js"></script>
+<script>renderList();</script>
+</body>
+</html>
